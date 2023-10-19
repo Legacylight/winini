@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #28c03c
+}
+
+
+.nav-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  display: flex;
+  cursor: pointer;
+}
+.navigation {
+  top:10%;
+  display: inline-flex;
+  left:80%;
+
+
+}
+
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.cake-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cake-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.cake-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cake-price {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.about-section {
+  padding: 20px;
+}
+
+.about-section h3 {
+  color: #333;
+  margin-bottom: 20px
+}
+
+.order-section {
+  padding: 20px;
+}
+
+.order-section h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.services-section {
+  padding: 20px;
+}
+
+.services-section h5 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-section li {
+  margin-bottom: 30px;
+}
+
+.services-section h5 {
+  color: #333;
+}
+
+.services-section p {
+  color: #666;
+}
+.contact-section h6 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cake bakery</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h1><b><center>MY SWEET BAKERY</center></b></h1>
+
+  
+  
+  <div class="nav-container">
+  
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="order.php">Order</a></li>
+      <li><a href="Service.html">Service</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  
+
+  </div>
+<div class="formaction">
+  <form action="book.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="contact">Contact:</label>
+    <input type="text" id="contact" name="contact" required>
+    <br>
+  </div>
+    <h2>Select your cake:</h2>
+    
+    
+    <div class="cake-images">
+      <div class="cake-item">
+        <img src="VANILLA.jpg" alt="VANILLA 1">
+        <span class="cake-price">ksh 1000</span>
+        <input type="radio" id="VANILLA" name="VANILLA" value="VANILLA">
+        <label for="VANILLA">VANILLA</label>
+      </div>
+      
+      <div class="cake-item">
+        <img src="BLACK FOREST.jpg" alt="BLACK FOREST">
+        <span class="cake-price">ksh 1100</span>
+        <input type="radio" id="BLACK FOREST" name="cake" value="BLACK FOREST">
+        <label for="BLACK FOREST">BLACK FOREST</label>
+      </div>
+      <div class="cake-item">
+        <img src="CARROT.jpg" alt="CARROT">
+        <span class="cake-price">ksh 1300</span>
+        <input type="radio" id="CARROT" name="cake" value="CARROT">
+        <label for="CARROT">CARROT</label>
+      </div>
+  
+    
+      <div class="cake-item">
+        <img src="FRUITPIE.jpg" alt="FRUITPIE">
+        <span class="cake-price">ksh 1350</span>
+        <input type="radio" id="FRUITPIE" name="cake" value="FRUITPIE">
+        <label for="FRUITPIE">"FRUITPIE</label>
+      </div>
+      <div class="cake-item">
+        <img src="LEMON.jpg" alt="LEMON">
+        <span class="cake-price">ksh 1250</span>
+        <input type="radio" id="LEMON" name="cake" value="LEMON">
+        <label for="LEMON">LEMON</label>
+      </div>
+      <div class="cake-item">
+        <img src="RAINBOW.jpg" alt="RAINBOW">
+        <span class="cake-price">ksh 1520</span>
+        <input type="radio" id="RAINBOW" name="cake" value="RAINBOW">
+        <label for="RAINBOW">RAINBOW</label>
+      </div>
+   
+     
+      <div class="cake-item">
+        <img src="RED VELVET.jpg" alt="RED VELVET">
+        <span class="cake-price">ksh 2220</span>
+        <input type="radio" id="RED VELVET" name="cake" value="RED VELVET">
+        <label for="RED VELVET">"RED VELVET</label>
+      </div>
+      <div class="cake-item">
+        <img src="STRAWBERRY.jpg" alt="STRAWBERRY">
+        <span class="cake-price">ksh 4220</span>
+        <input type="radio" id="STRAWBERRY" name="cake" value="STRAWBERRY">
+        <label for="STRAWBERRY">STRAWBERRY</label>
+      </div>
+      <div class="cake-item">
+        <img src="CHOCOLATE.jpg" alt="CHOCOLATE">
+        <span class="cake-price">ksh 1120</span>
+        <input type="radio" id="CHOCOLATE" name="cake" value="CHOCOLATE">
+        <label for="CHOCOLATE">CHOCOLATE</label>
+      </div>
+     
+    </div>
+    
+    
+    <label for="size">Cake Size:</label>
+    <select id="size" name="size" required>
+      <option value="">Select Size</option>
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+    </select>
+    
+    <input type="submit" value="Place Order">
+  </form>
+</body>
+
+</html>
